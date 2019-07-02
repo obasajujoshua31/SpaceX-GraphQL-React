@@ -1,0 +1,64 @@
+.launch-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.launches-header {
+  margin: 3rem 0;
+}
+
+.launch-success {
+  background-color: #888;
+  color: black;
+}
+
+.launch-success a {
+  color: rgb(6, 6, 97) !important;
+}
+.card-header a {
+  color: burlywood;
+}
+
+.launches-key {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.success-key {
+  height: 20px;
+  width: 50px;
+  background-color: #888;
+  display: block;
+}
+
+.failure-key {
+  height: 20px;
+  width: 50px;
+  border: 1px solid #888;
+  display: block;
+}
+
+.launches-success {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5px;
+  align-self: flex-end;
+}
+
+.launches-failure {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+}
+
+.launches-success-text {
+  flex: 3;
+  padding: 0px 5px;
+}
+
+.launches-failure-text {
+  flex: 3;
+  padding: 0px 5px;
+}

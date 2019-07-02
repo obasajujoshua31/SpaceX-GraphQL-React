@@ -1,0 +1,18 @@
+{
+  "name": "SpaceX-GraphQL-React",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/obasajujoshua31/SpaceX-GraphQL-React.git",
+  "author": "Joshua Obasaju",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.4.1"
+  }
+}

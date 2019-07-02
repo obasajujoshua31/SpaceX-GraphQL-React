@@ -1,0 +1,13 @@
+.navbar.bg-light {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(6, 6, 97);
+  font-size: 1.2rem;
+}
+
+.navlink.active {
+  color: red;
+}
